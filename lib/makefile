@@ -1,6 +1,6 @@
 .PHONY:clean
 CC=gcc
-OBJECTS=func1.o func2.o
+OBJECTS=func1.o func2.o func3.o
 OUTPUT=libfuncs.so.1.0
 
 libfuncs.so.1 libfuncs.so : libfuncs.so.1.0
